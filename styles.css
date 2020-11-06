@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1{
+  font-family: Luminari, fantasy;
+}
+
+@-webkit-keyframes blackWhite1 {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: black; }
+  100% { background-color: black; }
+}
+
+@-webkit-keyframes violetViolence {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: violet; }
+  100% { background-color: violet; }
+}
+
+@-webkit-keyframes purpleViolence {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: purple; }
+  100% { background-color: purple; }
+}
+
+@-webkit-keyframes blueViolence {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: blue; }
+  100% { background-color: blue; }
+}
+
+@-webkit-keyframes greenViolence {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: green; }
+  100% { background-color: green; }
+}
+
+@-webkit-keyframes yellowViolence {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: yellow; }
+  100% { background-color: yellow; }
+}
+
+@-webkit-keyframes orangeViolence {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: orange; }
+  100% { background-color: orange; }
+}
+
+@-webkit-keyframes redViolence {
+  0% { background-color: lightblue; }
+  50% { background-color: lightblue; }
+  51% { background-color: red; }
+  100% { background-color: red; }
+}
+
+.blinkdiv1 {
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: blackWhite1;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+}
+
+.blinkdiv2 {
+    height: 100px;
+    background-color: violet;
+    -webkit-animation-name: violetViolence;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: .1s;
+}
+
+.blinkdiv3 {
+    height: 100px;
+    background-color: violet;
+    -webkit-animation-name: purpleViolence;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: .2s;
+}
+
+.blinkdiv4 {
+    height: 100px;
+    background-color: violet;
+    -webkit-animation-name: blueViolence;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: .4s;
+}
+
+.blinkdiv5 {
+    height: 100px;
+    background-color: violet;
+    -webkit-animation-name: greenViolence;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: .8s;
+}
+
+.blinkdiv6 {
+    height: 100px;
+    background-color: violet;
+    -webkit-animation-name: yellowViolence;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1.6s;
+}
+
+.blinkdiv7 {
+    height: 100px;
+    background-color: violet;
+    -webkit-animation-name: orangeViolence;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3.2s;
+}
+
+.blinkdiv8 {
+    height: 100px;
+    background-color: violet;
+    -webkit-animation-name: redViolence;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6.4s;
+}
